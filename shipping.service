@@ -4,7 +4,7 @@ Description=Shipping Service
 [Service]
 User=roboshop
 Environment=CART_ENDPOINT=cart.chintu.cloud:8080
-Environment=DB_HOST=mysql.daws76s.online
+Environment=DB_HOST=mysql.chintu.cloud
 ExecStart=/bin/java -jar /app/shipping.jar
 SyslogIdentifier=shipping
 
